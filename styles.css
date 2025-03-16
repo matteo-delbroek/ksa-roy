@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
@@ -119,4 +119,59 @@ h2:hover {
     font-size: 30px;
 }
 
+#groepen{
+    padding: 20px 70px;
+}
 
+/* Groepen Section */
+#groepen {
+    padding: 20px 70px;
+    text-align: center;
+}
+
+#groepen .title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.group h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.group .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.group .content.left {
+    text-align: left;
+    flex-direction: row-reverse;
+}
+
+.group .content.right {
+    text-align: right;
+    flex-direction: row;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.foto_groep:hover {
+    transform: scale(1.1);
+}
+
+.foto_groep {
+    border-radius: 10px;
+}
