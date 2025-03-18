@@ -1,1 +1,1 @@
-'inlinecode'
+`console.log("Hello, World!");`
